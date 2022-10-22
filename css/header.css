@@ -1,0 +1,59 @@
+.cabecalho{
+    background-color: #111;
+    color: #ededed;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.logo:hover{
+    color: #c7c7c7;
+}
+.logo h1{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.logo img{
+    max-width: 80px;
+}
+.menu-header li{
+    position: relative;
+}
+.menu-header li::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #ededed;
+    position: absolute;
+    margin-top: 2px;
+    transition: 0.2s;
+}
+.menu-header li:hover::after{
+    width: 100%;
+    transition: 0.3s;
+}
+.menu-header ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu-header ul li a{
+    padding: 10px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}

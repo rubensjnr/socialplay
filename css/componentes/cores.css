@@ -1,0 +1,21 @@
+:root{
+    /*Palheta de cores*/
+    --cor-p1: #2B292C;
+    --cor-p2: #5F4180;
+    --cor-p3: #7D44C7;
+    --cor-p4: #7425C7;
+    /*Cores de utilitarias*/
+    --cor-12: #000;
+    --cor-11: #111;
+    --cor-10: #2e2e2e;
+    --cor-9: #404040;
+    --cor-8: #595959;
+    --cor-7: #717171;
+    --cor-6: #9c9c9c;
+    --cor-5: #c7c7c7;
+    --cor-4: #cccccc;
+    --cor-3: #dedede;
+    --cor-2: #ededed;
+    --cor-1: #f7f7f7;
+    --cor-0: #fff;
+}
