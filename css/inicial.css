@@ -1,0 +1,21 @@
+.img-capa{
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+.capa-larga{
+    border-radius: 0px;
+}
+.capa-curta{
+    border-radius: 0px;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .capa-larga{
+        display: none;
+    }
+    .capa-curta{
+        display: block;
+    }
+}
