@@ -2,7 +2,6 @@
     background-color: #ffffff;
     max-width: 100%;
 }
-
 .capa-larga{
     border-radius: 0px;
 }
@@ -10,14 +9,11 @@
     border-radius: 0px;
     display: none;
 }
-
 main > p{
     max-width: 1300px;
     margin: 0 auto;
     margin-top: 40px;
 }
-
-
 @media (max-width: 600px){
     .capa-larga{
         display: none;
