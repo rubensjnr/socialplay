@@ -1,17 +1,17 @@
 .frase-topo{
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
 }
 .conteudos-1{
+    margin-top: 50px;
     background-color: var(--cor-10);
     box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
     color: var(--cor-1);
 }
 .first-conteudo{
-    margin-top: 30px;
     display: grid;
     grid-template-columns: 1.5fr 1.2fr 0.5fr;
     justify-items: center;
@@ -25,20 +25,103 @@
     margin: 50px 0px;
 }
 .first-conteudo img{
-    max-width: 100%;
+    max-width: 500px;
     border-radius: 10px;
-    height: 400px;
     object-fit: cover;
-    justify-content: end;
 }
-
+.conteudos-2{
+    margin-top: 100px;
+}
 .second-conteudo{
-    padding-top: 50px;
     background-color: var(--cor-0);
     color: var(--cor-11);
     display: grid;
-    grid-template-columns: 0.5fr 1.2fr 1.5fr;
+    grid-template-columns: 0.5fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     gap: 10px;
+}
+.second-conteudo img{
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.second-conteudo h3{
+    display: grid;
+    justify-content: end;
+    font-size: 1.5rem;
+}
+.second-conteudo p{
+    display: flex;
+    justify-content: end;
+    margin: 50px 0px;
+}
+.second-conteudo span{
+    display: flex;
+    justify-content: end;
+}
+
+.conteudos-3{
+    margin-top: 100px;
+    background-color: var(--cor-10);
+    box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
+    color: var(--cor-1);
+}
+.third-conteudo{
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.third-conteudo img{
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.third-conteudo h3{
+    font-size: 1.5rem;
+}
+.third-conteudo p{
+    margin: 50px 0px;
+}
+
+.titulo.espaco{
+    padding-top: 120px;
+    padding-left: 9%;
+}
+
+.titulo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.parceiros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.parceiros img{
+   width: 250px;
+   height: 200px;
+   border-radius: 10px;
+   margin: 0 auto;
+   object-fit: cover;
+}
+
+.container-all h3::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 8px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right,#7425C7,#7D44C7);
 }
