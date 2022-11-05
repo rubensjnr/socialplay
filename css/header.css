@@ -6,15 +6,6 @@
     top: 0;
     z-index: 999;
 }
-.container{
-    max-width: 1300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 50px;
-    margin: 0 auto;
-}
 /* -------------------> logotipo <------------------ */
 .logo{
     display: flex;
@@ -37,7 +28,7 @@
 /* -------------------> menu <------------------ */
 .menu-header li{
     position: relative;
-}
+}   
 .menu-header li::after{
     content: '';
     display: block;
@@ -211,8 +202,6 @@
         position: relative;
     }
 }
-
-
 @media(max-width: 325px){
     #btn-mobile p{
         display: none;
