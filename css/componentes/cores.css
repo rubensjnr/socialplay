@@ -19,3 +19,6 @@
     --cor-1: #f7f7f7;
     --cor-0: #fff;
 }
+.cor-0{
+    color: var(--cor-0);
+}

@@ -5,10 +5,17 @@
 .capa-larga{
     border-radius: 0px;
     width: 100%;
+    filter: hue-rotate(245deg);
+    object-fit: cover;
+    min-height: 200px;
 }
 .capa-curta{
     border-radius: 0px;
     display: none;
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    min-height: 200px;
 }
 main > p{
     max-width: 1300px;
