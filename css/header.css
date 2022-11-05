@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    padding: 30px 50px;
 }
 /* -------------------> logotipo <------------------ */
 .logo{

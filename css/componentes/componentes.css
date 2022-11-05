@@ -8,14 +8,18 @@
     bottom: 50px;
     right: 35px;
     background-color: #25d366;
-    color: #fff;
+    color: var(--cor-1);
     border-radius: 50%;
     font-size: 45px;
-    box-shadow: 0.5px 0.5px 3px #888;
+    box-shadow: 0.5px 0.5px 3px var(--cor-11);
+    transition: 0.3s;
     z-index: 10;
 }
+.btn-wpp:hover{
+    filter: hue-rotate(25deg);
+}
 .btn-topo{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -26,9 +30,10 @@
     background-image: url('../../imagens/icones/seta-subir.svg');
     z-index: 10;
     background-size: 4rem;
+    transition: 0.5s;
 }
 .btn-topo:hover{
-    background-image: url('../../imagens/icones/seta-subir-hover.svg');
+    filter: hue-rotate(25deg);
 }
 .container{
     max-width: 1300px;
@@ -36,7 +41,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 50px;
     margin: 0 auto;
 }
 .subir-seta{
