@@ -1,0 +1,44 @@
+.frase-topo{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.conteudos-1{
+    background-color: var(--cor-10);
+    box-shadow: inset 0px -40px var(--cor-0), inset 0px 40px var(--cor-0);
+    color: var(--cor-1);
+}
+.first-conteudo{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.first-conteudo h3{
+    font-size: 1.5rem;
+}
+.first-conteudo p{
+    margin: 50px 0px;
+}
+.first-conteudo img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+    justify-content: end;
+}
+
+.second-conteudo{
+    padding-top: 50px;
+    background-color: var(--cor-0);
+    color: var(--cor-11);
+    display: grid;
+    grid-template-columns: 0.5fr 1.2fr 1.5fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}

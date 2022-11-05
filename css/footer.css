@@ -84,6 +84,7 @@
     color: var(--cor-6);
 }
 .final{
+    margin-top: 20px;
     background-color: var(--cor-11);
     color: #fff;
     text-align: center;

@@ -11,7 +11,7 @@
     color: var(--cor-1);
     border-radius: 50%;
     font-size: 45px;
-    box-shadow: 0.5px 0.5px 3px var(--cor-11);
+    box-shadow: 0.5px 0.5px 1px var(--cor-10);
     transition: 0.3s;
     z-index: 10;
 }
@@ -33,19 +33,63 @@
     transition: 0.5s;
 }
 .btn-topo:hover{
-    filter: hue-rotate(25deg);
+    filter: hue-rotate(55deg);
 }
 .container{
     max-width: 1300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container-all{
+    max-width: 1300px;
     margin: 0 auto;
 }
 .subir-seta{
     max-width: 70px;
 }
+.botao{
+    display: flex;
+    padding: 16px 32px;
+    background-color: var(--cor-p3);
+    justify-content: center;
+    max-width: max-content;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    background: linear-gradient(#7425C7, #6a36a3);
+    border-radius: 4px;
+    align-self: center;
+}
+.ver-mais a{
+    transition: 0.3s;
+}
+.ver-mais a:hover{
+    color: var(--cor-6);
+}
+.ver-mais a::after{
+    content: '>';
+    font-weight: 800;
+    display: inline-block;
+    width: 1ch;
+    height: 1ch;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ver-mais a:hover::after{
+    rotate: calc(140deg);
+    transition: 0.3s;
+}
+
+
+
+.frase-autor{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
 @media (max-width: 700px){
     .btn-wpp{
         display: none;
