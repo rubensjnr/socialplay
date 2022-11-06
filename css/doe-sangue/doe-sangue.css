@@ -1,0 +1,51 @@
+.caixa-sangue{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.caixa-sangue h3{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.caixa-sangue p{
+    padding-bottom: 30px;
+}
+.caixa-sangue img{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+.sangue-2{
+    margin-top: 120px;
+    background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-5)60%);
+    margin-bottom: 120px;
+}
+@media(max-width: 700px){
+    .caixa-sangue{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .sangue-2{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-3)60%);
+    }
+    .sangue-1 h1{
+        font-size: 1.5rem;
+    }
+    .sangue-2 h1{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 400px){
+    .sangue-1 h1{
+        font-size: 1.125rem;
+    }
+    .sangue-2 h1{
+        font-size: 1.125rem;
+    }
+}

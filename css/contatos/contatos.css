@@ -29,7 +29,6 @@
     color: var(--cor-1);
     padding: 80px 50px 80px 80px
 }
-
 .ul-endereco{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,7 +91,15 @@
 .mensagem textarea{
     width: 96%
 }
-
+.sociais-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sociais-icon img{
+    display: flex;
+    max-width: 70px;
+}
 @media(max-width: 1000px){
     .box-contato label{
         font-size: 1.125rem;
