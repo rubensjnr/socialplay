@@ -1,6 +1,8 @@
 .frase-topo{
     padding-top: 70px;
     padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
@@ -31,6 +33,9 @@
 }
 .conteudos-2{
     margin-top: 100px;
+}
+.mobile-cont2{
+    display: none;
 }
 .second-conteudo{
     background-color: var(--cor-0);
@@ -88,15 +93,17 @@
     margin: 50px 0px;
 }
 
-.titulo.espaco{
+.espaco{
     padding-top: 120px;
-    padding-left: 9%;
+    padding-bottom: 10px;
 }
-
+.titulo.centro{
+    text-align: center;
+    margin: 0 auto;
+}
 .titulo{
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 5%;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 3rem;
 }
@@ -124,4 +131,96 @@
     height: 8px;
     margin-bottom: 5px;
     background-image: linear-gradient(to right,#7425C7,#7D44C7);
+}
+
+@media(max-width: 1000px){
+    .conteudos-1,.conteudos-2,.conteudos-3{
+        box-shadow: none;
+        padding-bottom: 20px;
+    }
+    .first-conteudo,.second-conteudo,.third-conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-self: center;
+        align-items: center;
+        margin: 0px 20px;
+        padding-bottom: 50px;
+    }
+    .first-conteudo p,.second-conteudo p,.third-conteudo p{
+        margin: 10px 0px;
+    }
+    .first-conteudo img,.second-conteudo img,.third-conteudo img{
+        display: flex;
+        margin-top: -50px;
+        width: 1fr;
+        border-radius: 2px;
+        max-width: 400px;
+    }
+    .second-conteudo img{
+        padding-top: 50px;
+    }
+    .second-conteudo h3{
+        justify-content: start;
+    }
+    .second-conteudo p{
+        justify-content: center;
+    }
+    .second-conteudo span{
+        display: flex;
+        justify-content: start;
+    }
+    .desktop-cont2{
+        display: none;
+    }
+    .mobile-cont2{
+        display: block;
+    }
+
+}
+@media(max-width: 800px){
+    .parceiros{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 1px;
+        justify-content: center;
+        margin-bottom: 10px;
+    
+    }
+    .parceiros img{
+       width: 400px;
+       height: 300px;
+       border-radius: 4px;
+       margin: 0 auto;
+       object-fit: contain;
+    }  
+}
+@media(max-width: 500px){
+    .first-conteudo img,.second-conteudo img,.third-conteudo img{
+        display: flex;
+        margin-top: -50px;
+        width: 1fr;
+        border-radius: 2px;
+        max-width: 300px;
+
+    }
+    .espaco{
+        padding-top: 120px;
+        padding-bottom: 10px;
+    }
+    .titulo.centro{
+        text-align: start;
+        margin: 0;
+    }
+    .titulo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+    .first-conteudo,.second-conteudo,.third-conteudo{
+        justify-self: center;
+        align-items: flex-start;
+    }
 }
