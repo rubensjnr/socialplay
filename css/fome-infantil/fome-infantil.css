@@ -1,0 +1,20 @@
+.caixa-crianca{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+.caixa-crianca h3{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.caixa-crianca p{
+    padding-bottom: 30px;
+}
+.caixa-crianca img{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+

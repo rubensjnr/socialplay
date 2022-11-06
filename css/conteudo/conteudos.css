@@ -124,7 +124,7 @@
    object-fit: cover;
 }
 
-.container-all h3::before{
+.container-all h3::before,.caixa-crianca h3::before{
     content: '';
     display: block;
     width: 20px;
