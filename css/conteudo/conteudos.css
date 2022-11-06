@@ -194,7 +194,10 @@
        border-radius: 4px;
        margin: 0 auto;
        object-fit: contain;
-    }  
+    }
+    .titulo{
+        font-size: 2rem;
+    }
 }
 @media(max-width: 500px){
     .first-conteudo img,.second-conteudo img,.third-conteudo img{
@@ -222,5 +225,8 @@
     .first-conteudo,.second-conteudo,.third-conteudo{
         justify-self: center;
         align-items: flex-start;
+    }
+    .titulo{
+        font-size: 1.5rem;
     }
 }

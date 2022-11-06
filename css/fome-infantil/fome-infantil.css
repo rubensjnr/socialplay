@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     justify-content: center;
+    box-sizing: border-box;
     gap: 10px;
 }
 .caixa-crianca h3{
@@ -17,4 +18,35 @@
     max-width: 400px;
     object-fit: cover;
 }
+.crianca-2{
+    margin-top: 120px;
+    background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-5)60%);
+    margin-bottom: 120px;
+}
+@media(max-width: 700px){
+    .caixa-crianca{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .crianca-2{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-3)60%);
+    }
+    .crianca-1 h1{
+        font-size: 1.5rem;
+    }
+    .crianca-2 h1{
+        font-size: 1.5rem;
+    }
+}
 
+@media(max-width: 400px){
+    .crianca-1 h1{
+        font-size: 1.125rem;
+    }
+    .crianca-2 h1{
+        font-size: 1.125rem;
+    }
+}
