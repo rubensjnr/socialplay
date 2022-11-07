@@ -15,13 +15,13 @@
 .caixa-animal img{
     display: block;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     object-fit: cover;
 }
 .animal-2{
-    margin-top: 120px;
+    margin-top: 70px;
     background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-5)60%);
-    margin-bottom: 120px;
+    margin-bottom: 70px;
 }
 @media(max-width: 700px){
     .caixa-animal{
