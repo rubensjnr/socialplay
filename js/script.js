@@ -8,5 +8,4 @@ btnMobile.addEventListener('click' || 'touchstart', ()=>{
         menu1.classList.toggle('x-menu');
     }
 });
-
-
+//
