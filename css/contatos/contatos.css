@@ -22,7 +22,7 @@
     margin: 0px 10px 0px 0px;
 }
 .box-contato input:focus,.box-contato textarea:focus{
-    border: 0.5px solid var(--cor-p4);
+    border: 0.5px  inset solid var(--cor-p4);
 }
 .redes-contatos{
     background-color: var(--cor-11);

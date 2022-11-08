@@ -23,6 +23,14 @@
     background-image: linear-gradient(to right, var(--cor-0)40%, var(--cor-5)60%);
     margin-bottom: 120px;
 }
+.caixa-sangue h3::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 8px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right,#7425C7,#7D44C7);
+}
 @media(max-width: 700px){
     .caixa-sangue{
         grid-template-columns: 1fr;
